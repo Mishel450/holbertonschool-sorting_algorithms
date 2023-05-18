@@ -31,6 +31,7 @@ void insertion_sort_list(listint_t **list)
 				if (n->prev != NULL)
 				aux = n->prev;
 			}
+			if (aux->next != NULL)
 			aux = aux->next;
 		}
 	}
